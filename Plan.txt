@@ -1,0 +1,17 @@
+Stacks:
+- Servlets + jsp/html
+- EJB + CDI + JSF (EE)
+- Spring (MVC, Security) + jsp/html
+
+DB:
+- JDBC
+- Hibernate
+
+General:
+- How it really works
+- JVM and Java core
+- Simple project without IDE
+- Web services (SOAP and REST)
+- XML and JSON
+- HTML + CSS + JS
+- Patterns (if possible)
