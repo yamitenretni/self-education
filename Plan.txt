@@ -1,17 +1,33 @@
-Stacks:
-- Servlets + jsp/html
-- EJB + CDI + JSF (EE)
-- Spring (MVC, Security) + jsp/html
+Web-development java backend choices:
+- Plain Servlets, Filters, EventListeners (Tomcat, Jetty??)
+- EJB3, Mbeans + Application Server (TomEE, Wildfly??)
+- Spring IoC + its modules (Tomcat??)
 
-DB:
+Web-development java front-end choices:
+- JSP (Tomcat??)
+- JSF like MyFaces, Mojarra (Tomcat??)
+- PrimeFaces, IceFaces, RichFaces (Tomcat??)
+- Plain HTML/CSS/JS
+
+Data persistence:
+- File (NIO???)
 - JDBC
-- Hibernate
+- JPA/Hibernate
+- JOOQ (why not??)
 
-General:
-- How it really works
-- JVM and Java core
-- Simple project without IDE
-- Web services (SOAP and REST)
-- XML and JSON
-- HTML + CSS + JS
-- Patterns (if possible)
+General Java questions:
+- JVM internals (classloader, garbage collector, threading model, exception handling, memory leaks, performance tuning)
+- Java Core (OCJP SE 6 certification)
+- Java code compilation and execution using console
+
+General Java development topics:
+- Web services implementation and consumption(analysis of alternatives, tooling, security and performance details)
+- XML/XQuery (implementations, versions, usage and best practices)
+- JSON (current libraries and best practices)
+
+Books for consideration:
+- Code Complete|McConnell
+- Effective Java|Bloch
+- Java Puzzlers|Bloch
+- Patterns GoF|Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+- Refactoring|Fowler
